@@ -95,7 +95,7 @@ download_cli() {
     local version="$3"
 
     if [ ! -f "$bin_path" ]; then
-        echo "📥 Downloading CLI version $version..."
+        echo "�� Downloading CLI version $version..."
 
         remote_file="codacy-cli-v2_${version}_${suffix}_${arch}.tar.gz"
         url="https://github.com/codacy/codacy-cli-v2/releases/download/${version}/${remote_file}"
