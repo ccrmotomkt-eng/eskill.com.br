@@ -1,0 +1,68 @@
+# Dependências
+/vendor/
+/node_modules/
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.*.local
+
+# Logs
+/storage/logs/*.log
+*.log
+
+# Cache
+/storage/cache/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# VS Code (workspace/editor config)
+.vscode/
+
+# Backup
+*.sql
+*.bak
+*.backup
+storage/backups/
+
+# Temporários
+/tmp/
+/temp/
+cleanup_junk.py
+cleanup_junk.php
+tmp_*.php
+debug_*.php
+
+# Local MySQL (sandbox/dev)
+/storage/mysql-data/
+/storage/mysql-tmp/
+/storage/mysql-run/
+
+# PHPUnit cache
+.phpunit.result.cache
+.phpunit.cache/
+
+# Session files
+/storage/tmp/sessions/
+
+# Security: sensitive files
+cookies.txt
+.env.test
+.env.testing
+
+# MCP / agent local debug artifacts
+.mcp-debug-tools/
+
